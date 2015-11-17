@@ -43,7 +43,7 @@
     <meta name="msapplication-TileImage" content="./img/favicons/mstile-144x144.png">
     <meta name="msapplication-config" content="./img/favicons/browserconfig.xml">
 
-    <link href="./css/main.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,8 +51,22 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
-  </head>
 
+    <style>
+        /** Styles addd by Arnold  */
+        nav ul {
+            float: right;
+        }
+        .top-section-hero .jumbotron{
+            top: 93%;
+        }
+
+        .top-section-hero{
+            background: url('./img/sections-background/GDG.png');
+        }
+        /* End of Arnold's styles */
+    </style>
+  </head>
 
 <body>
     <div id="preloader" class="preloader">
@@ -64,7 +78,7 @@
             <div class="st-content">
 
                  <!-- Begin Hero Section -->
-<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('./img/sections-background/hero.jpg');">
+<section id="top-section-hero" class="top-section-hero top-section image-section">
     <header id="top-header" class="top-header">
     <div class="overlay white-solid"></div>
     <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
@@ -78,23 +92,23 @@
         <ul>
 
             <li>
-                <a class="current"  href=" / " >Home</a>
+                <a class="current"  href="/" >Home</a>
             </li>
 
             <li>
-                <a class=""  href=" /schedule/ " >Schedule</a>
+                <a class=""  href="./about/" >About</a>
             </li>
 
             <li>
-                <a class=""  href=" /speakers/ " >Speakers</a>
+                <a class=""  href="./speakers/" >Membership</a>
             </li>
 
             <li>
-                <a class=""  href=" /team/ " >Team</a>
+                <a class=""  href="./events/">Events</a>
             </li>
 
             <li>
-                <a class=""  href=" /logistics/ " >Logistics</a>
+                <a class=""  href="./partners/">Partners</a>
             </li>
 
         </ul>
@@ -109,11 +123,11 @@
         <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
 
             <h1>GDG DevFest<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">Silicon Valley</span>2014</h1>
-            <p>November 16, 2014</p>
+            <!-- <p>November 16, 2014</p>
 
             <a href=" https://docs.google.com/forms/d/1iKhNPl72_nJZKd_0Z1XRmhuKMdrzr6GgdhwQkZg-qvg/viewform " class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Become a speaker</a>
 
-            <a href=" https://www.eventbrite.com/e/gdg-silicon-valley-devfest-2014-tickets-13571156695 " class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Register</a>
+            <a href=" https://www.eventbrite.com/e/gdg-silicon-valley-devfest-2014-tickets-13571156695 " class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Register</a> -->
 
         </div>
     </div>
