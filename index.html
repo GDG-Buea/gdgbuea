@@ -487,15 +487,17 @@
                     eventPlace = new google.maps.LatLng(37.426089,-122.072344),
                     centerMap = new google.maps.LatLng(37.426089,-122.072344),
                     mobileCenterMap = new google.maps.LatLng(37.426089,-122.072344),
-                    icon = './img/other/map-marker.svg';
+                    icon = './img/others/map-marker.png';
             } else {
                var staticGoogleMaps = true,
                 eventPlaceCoordinates = '37.426089,-122.072344',
                 centerMapCoordinates = '37.426089,-122.072344',
-                mobileCenterMapCoordinates = '37.426089,-122.072344',
-                icon = 'http://devfest2014.gdgsv.com/img/other/map-marker.png';
+                mobileCenterMapCoordinates = '37.426089,-122.072344'
+                icon = './img/others/map-marker.png';
             }
-            var twitterFeedUrl = 'https://twitter.com/gdgsv';
+
+            //var twitterFeedUrl = 'https://twitter.com/gdgsv';
+
             $(document).ready(function () {
                 $(function () {
                     if ($(window).width() > 767) {
@@ -553,7 +555,7 @@
             });
 
     </script>
-    <script src="./js/scripts.min.js"></script>
+    <script src="./js/scripts.js"></script>
 
 
     <script type="application/ld+json">
