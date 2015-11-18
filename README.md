@@ -13,36 +13,37 @@ Developers are individuals that have made substantial contributions (hundreds of
 
    nick: Rickon Stark
 
-   Content Provider
+   Content Provider Section
 
 
 2. Chick Delveri
 
    nick: khaldrogo
 
-   Calendar & Organizer tags
+   Membership Section
 
    
 3. Acho Arnold
 
    nick: O'dor
 
-   Calendar tag
+   Home Section
 
 4. Nsiany Sandra
 
-   nick: 
+   nick: TBD
 
-
+   About Section
 
 5. Esambe Elvis
 
-   nick: 
+   nick: TBD
 
-   
+   Event Gallery Section
 
 5. Nde Michael
 
-   nick: 
+   nick: TBD
 
+   Footer Section
    
