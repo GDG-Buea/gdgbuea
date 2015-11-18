@@ -8,3 +8,41 @@ The Google Developer Group Buea ( GDG Buea ) is a #techosystem of electronic ent
 DEVELOPERS
 
 Developers are individuals that have made substantial contributions (hundreds of lines of code) to the website project during the Hackweek of the Devfest Fako 2015 in November 2015. Participation and contributions are graciously appreciated and credited in following. The Game of Thrones character nick names are just for fun and general happiness.
+
+1. Isaac Kamga
+
+   nick: Rickon Stark
+
+   Content Provider
+
+
+2. Chick Delveri
+
+   nick: khaldrogo
+
+   Calendar & Organizer tags
+
+   
+3. Acho Arnold
+
+   nick: O'dor
+
+   Calendar tag
+
+4. Nsiany Sandra
+
+   nick: 
+
+
+
+5. Esambe Elvis
+
+   nick: 
+
+   
+
+5. Nde Michael
+
+   nick: 
+
+   
