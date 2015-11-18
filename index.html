@@ -131,47 +131,43 @@
 <!-- End Hero Section -->
 
  <!-- About Section -->
-<section id="about" class="rockstar-speakers image-section parallax" style="background-image: url(/img/sections-background/rockstar-speakers.jpg);">
+<section id="about" class="rockstar-speakers image-section parallax">
 <style
        type="text/css" ></style>
 
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-<<<<<<< HEAD
             <h3 style="color:#F2F2F2;text-align:center;font-family:DIN ;  ">
                 About GDG Buea </h3>
-            <div class="row about-details">
-                
-                
-                
-=======
-            <h3>About GDG DevFest</h3>
+
             <div class="row about-details">   
->>>>>>> master
-                <div class="col-md-6 col-xs-6">  
+
+                <div class="col-md-6 col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
                         <h5 style="font-family:Lato-Regular ;color:#F2F2F2 ; " >GDG Buea</h5>
-                        <img class="img-rounded " src="/img/about-section/GDG.jpg" height="128" width="128" alt="Conference">
+                        <img class="img-rounded" src="/img/about-section/GDG.jpg" height="128" width="128" alt="Conference">
+
+
                         <p>The Google Developer Group Buea (GDG Buea) is a techosystem of electronic enthusiasts
                             and technically-minded hobbyists which grooms hackers, entrepreneurs and researchers
                             by creating an anti-authoritarian culture where Google's technologies are employed to solve the technical problems.</p>
                     </div>
                 </div>        
-                <div class="col-md-6 col-xs-6">  
+                <div class="col-md-6 col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
                         <h5 style="font-family:Lato-Regular ;color:#F2F2F2 ; ">
                             WTM Buea
                         </h5>
                         <img class="img-rounded " src="/img/about-section/WTM.jpg" height="128" width="128" alt="Code Labs">
                         <p>
-                            Women Techmaker Buea (WTM Buea) create a supportive global community in which women can connect,
+                            Women Techmaker Buea (WTM Buea) creates a diverse community in which women can connect,
                             be inspired, and encourage each other to realize their passions.
-                            They are continually launching global initiatives and piloting new programs to support and empower women in the industry.
+                            They are continually contributing to open source and empowering women around the Buea area.
                         </p>
 
                     </div>
                 </div>
-                 <div class="clearfix visible-xs"></div> 
+                 <div class="clearfix visible-xs"></div>
             </div>
         </div>
     </div>
@@ -189,9 +185,18 @@
 			<div class="clearfix">
 
 			</div>
-			<span class="bordered">
-				<a href="/organizers/" class="bottom-section-link waves-effect waves-button waves-light">See all organizers  </a>
+			<span class="bordered active " style="color:#D3D3D3;text-align:center;">
+
+
+                <a href="/organizers/" class="waves-effect waves-float  waves-button waves-light" style="font-family:'Lato'; font-size: 18px; font-style: italic; color:#F2F2F2 ;">
+
+            More Organizers
+                    
+                    </a>
+
 			</span>
+
+
 		</div>
 	</div>
 </section>
@@ -539,41 +544,38 @@
                 });
                 var organizers= [
 
-                    {name:"<a href='https://plus.google.com/108196826772057594196/about'>Isaac Kamga </a>" ,company: "Cameroon GDG Lead", image: "/img/people/isaac.jpg" },
+                    {name: "<a href='https://plus.google.com/+MparaFaith/about'>Mpara Faith</a>", post: "Women Techmakers Lead", image: "/img/people/faith.jpg"},
 
+                    {name: "<a href='https://plus.google.com/110533699479797828285/about'>Otto Akama</a>", post: "Product Development Manager", image: "/img/people/ottoakama.jpg"},
 
+                    {name: "<a href='https://plus.google.com/102425594519879388722/about'>Delveri Chick</a>", post: "Community Manager", image: "/img/people/CHICK.jpg"},
 
-                    {name: "<a href='https://plus.google.com/102425594519879388722/about'>Delveri Chick</a>", company: "Community Manager", image: "/img/people/CHICK.jpg"},
-
-
-
-
-                    {name: "<a href='https://plus.google.com/110533699479797828285/about'>Otto Akama</a>", company: "Assistant Manager", image: "/img/people/ottoakama.jpg"},
-
-
-
-
-                    {name: "<a href='https://plus.google.com/+MparaFaith/about'>Mpara Faith</a>", company: "Buea WTM Lead", image: "/img/people/faith.jpg"}
-
-
+                    {name: "<a href='https://plus.google.com/108196826772057594196/about'>Isaac Kamga </a>" ,post: "GDG Mentor for Cameroon", image: "/img/people/Candle.jpg" }
 
 
                 ];
-                organizers.sort(function() {return 0.5 - Math.random()});
+
+
+
                 if(organizers.length > 0) {
                     var animationDelay = 1500,
-                        count = 4,
-                        colWidth = 12/count;
+                            count = 4,
+                            colWidth = 12/count;
                     for(i=0; i<count; i++) {
                         var clearfix = '<div class="clearfix visible-xs"></div>';
                         if ((i)%2 != 0) {
                             clearfix = ""
                         }
                         $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'">' +
-                                '<div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + organizers[i].image + ')">' +
-                                '</div><div class="name">' + organizers[i].name + '</div>' +
-                                '<div class="sub">' + organizers[i].company + '</div>' +
-                                '</div></div>' + clearfix);
+                                '<div class="rockstar-speaker">' +
+                                '<div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + organizers[i].image + ')">' +
+                                '</div>' +
+                                '<div class="name" style="color:#D3D3D3; font-family:DIN ;" >' + organizers[i].name +
+                                '</div>' +
+                                '<div class="sub" style="color:#D3D3D3;text-align:center;font-family:DIN ;">' + organizers[i].post +
+                                '</div>' +
+                                '</div>' +
+                                '</div>' + clearfix);
 
                         animationDelay -= 500;
                     }
