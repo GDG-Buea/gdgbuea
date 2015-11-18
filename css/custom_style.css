@@ -1,3 +1,6 @@
 .event-text {
-	color: rgba(37,32,31,0.8); font-family: sans-serif; padding-top:70px;
+	color: #fff; font-family: sans-serif; padding-top:150px;
+}
+.event-text-lg {
+	color: #fff; font-family: sans-serif; padding-top:500px;
 }
