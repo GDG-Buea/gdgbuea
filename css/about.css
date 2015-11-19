@@ -1,3 +1,23 @@
+#about{
+
+
+}
+
 h3{
-    color: #601E1E;
+    color:#f2f2f2;
+    text-align: center;
+    font-family: DIN;
+}
+
+h5{
+    font-family: 'Lato', sans-serif;
+    color: #f2f2f2;
+}
+
+p{
+    text-align: center;
+}
+span{
+    color: #D3D3D3;
+    text-align: center;
 }

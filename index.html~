@@ -131,18 +131,20 @@
 <!-- End Hero Section -->
 
  <!-- About Section -->
-<section id="about" class="rockstar-speakers image-section parallax" >
-<link rel="stylesheet" href="css/about.css" type="text/css">
+<section id="about" class="rockstar-speakers image-section parallax">
+<style
+       type="text/css" ></style>
 
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>About GDG Buea </h3>
+            <h3 style="color:#F2F2F2;text-align:center;font-family:DIN ;  ">
+                About GDG Buea </h3>
 
             <div class="row about-details">   
 
                 <div class="col-md-6 col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
-                        <h5>GDG Buea</h5>
+                        <h5 style="font-family:Lato-Regular ;color:#F2F2F2 ; " >GDG Buea</h5>
                         <img class="img-rounded" src="/img/about-section/GDG.jpg" height="128" width="128" alt="Conference">
 
 
@@ -153,7 +155,7 @@
                 </div>        
                 <div class="col-md-6 col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-                        <h5>
+                        <h5 style="font-family:Lato-Regular ;color:#F2F2F2 ; ">
                             WTM Buea
                         </h5>
                         <img class="img-rounded " src="/img/about-section/WTM.jpg" height="128" width="128" alt="Code Labs">
@@ -173,17 +175,16 @@
 <!-- End About Section -->
 
 <br><br><br><br>
- <!-- Begin organizers Section -->
+ <!-- Begin organizers Speakers Section -->
 
 	<div class="overlay solid-overlay"></div>
 	<div class="content-wrapper">
 		<div class="col-lg-10 col-lg-offset-1 rockstar-speakers-list">
             <br><br><br><br><br><br>
-			<h3 id="rockstar-speaker-title">Key Organizers  </h3>
+			<h3 id="rockstar-speaker-title" style="color:#F2F2F2;text-align:center;font-family:DIN ;  ">Key Organizers  </h3>
 			<div class="clearfix">
 
 			</div>
-            <br>
 			<span class="bordered active " style="color:#D3D3D3;text-align:center;">
 
 
@@ -198,9 +199,8 @@
 
 		</div>
 	</div>
-
 </section>
-<!-- End organizers Section -->
+<!-- End organizers Speakers Section -->
 
  <!-- Venue Section -->
 <section id="venue">
@@ -544,16 +544,18 @@
                 });
                 var organizers= [
 
-                    {name: "<a href='https://plus.google.com/+MparaFaith/about' style='color: #F2F2F2;'>Mpara Faith</a>", post: "Women Techmakers Lead", image: "/img/people/faith.jpg"},
+                    {name: "<a href='https://plus.google.com/+MparaFaith/about'>Mpara Faith</a>", post: "Women Techmakers Lead", image: "/img/people/faith.jpg"},
 
-                    {name: "<a href='https://plus.google.com/110533699479797828285/about' style='color: #F2F2F2;'>Otto Akama</a>", post: "Product Development Manager", image: "/img/people/ottoakama.jpg"},
+                    {name: "<a href='https://plus.google.com/110533699479797828285/about'>Otto Akama</a>", post: "Product Development Manager", image: "/img/people/ottoakama.jpg"},
 
-                    {name: "<a href='https://plus.google.com/102425594519879388722/about' style='color: #F2F2F2;'>Delveri Chick</a>", post: "Community Manager", image: "/img/people/CHICK.jpg"},
+                    {name: "<a href='https://plus.google.com/102425594519879388722/about'>Delveri Chick</a>", post: "Community Manager", image: "/img/people/CHICK.jpg"},
 
-                    {name: "<a href='https://plus.google.com/108196826772057594196/about' style='color: #F2F2F2;'>Isaac Kamga </a>" ,post: "GDG Mentor for Cameroon", image: "/img/people/Candle.jpg" }
+                    {name: "<a href='https://plus.google.com/108196826772057594196/about'>Isaac Kamga </a>" ,post: "GDG Mentor for Cameroon", image: "/img/people/Candle.jpg" }
 
 
                 ];
+
+
 
                 if(organizers.length > 0) {
                     var animationDelay = 1500,
@@ -568,9 +570,9 @@
                                 '<div class="rockstar-speaker">' +
                                 '<div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + organizers[i].image + ')">' +
                                 '</div>' +
-                                '<div class="name" style="font-family:DIN ; " >' + organizers[i].name +
+                                '<div class="name" style="color:#D3D3D3; font-family:DIN ;" >' + organizers[i].name +
                                 '</div>' +
-                                '<div class="sub" style="color:#D3D3D3; text-align:center;font-family:DIN ;">' + organizers[i].post +
+                                '<div class="sub" style="color:#D3D3D3;text-align:center;font-family:DIN ;">' + organizers[i].post +
                                 '</div>' +
                                 '</div>' +
                                 '</div>' + clearfix);
