@@ -82,6 +82,18 @@
             font-weight: 300;
         }
 
+        @media screen and (max-width: 768px) {
+            .jumbotron h1,
+            .jumbotron .h1 {
+                font-size: 40px;
+                font-weight: 300;
+            }
+            .top-section-hero .jumbotron{
+                top: 83%;
+            }
+
+        }
+
         .contact-us-block{
            /*/ margin-left: 200px*/
         }
@@ -144,6 +156,18 @@
             color: #F2F2F2;
             font-weight: 300;
         }
+
+        .membership p{
+            color:#14575E;
+            font-size: 16px;
+        }
+
+        .color-fluid-image{
+            width: 128px;
+            height: 80px;
+            margin-top: 23px;
+            margin-bottom: 23px;
+        }
         /* End of Arnold's styles */
     </style>
   </head>
@@ -161,6 +185,9 @@
 <section id="top-section-hero" class="top-section-hero top-section image-section">
     <header id="top-header" class="top-header">
     <div class="overlay white-solid"></div>
+    <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
+        <use xlink:href="./img/sprites/sprites.svg#icon-menu"></use>
+    </svg>
     <a href="./" id="logo-header" class="logo-header">
         <div class="logo logo-light"></div>
     </a>
@@ -181,7 +208,7 @@
             </li>
 
             <li>
-                <a class=""  href="./speakers/">Membership</a>
+                <a class=""  href="#membership">Membership</a>
             </li>
 
             <li>
@@ -308,7 +335,7 @@
                         </div>
                     </div>
                     <div class="venue-elem-wrapper col-xs-6 visible-xs">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url(./img/venue/GDG.jpg)"></div>
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url(./img/event-gallery/jsconf.jpg)"></div>
                     </div>
                 </div>
            </div>
@@ -321,6 +348,178 @@
         </div>
     </div>
 </section>
+
+
+<!-- Begin Membership Feed Section -->
+<section id="membership" class="membership twitter-feed image-section parallax" >
+    <div class="overlay solid-overlay"></div>
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>Members<a href="https://twitter.com/search?q=%23devfest" target="_blank"></a>
+            </h3>
+        </div>
+    </div>
+
+        <div class="row about-details">   
+                <div class="col-md-5 col-xs-12">  
+                    <!-- <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Membership1</h5>
+                        <img class="img-circle" src="./img/members/about-section/conference.jpg" height="128" width="128" alt="Conference">
+                        <p>Access to Google Developer Kits</p>
+                    </div> -->
+                </div>        
+                <div class="col-md-2 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+                        <h5>Organizers</h5>
+                        <img class="img-circle" src="./img/members/plan-meeting.jpg" height="128" width="128" alt="Code Labs">
+                        <p>Plan GDG Events</p>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-xs-12">  
+                    <!-- <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Membership3</h5>
+                        <img class="img-circle" src="./img/members/about-section/conference.jpg" height="128" width="128" alt="Conference">
+                        <p>Invitation to all GDG Events.</p>
+                    </div> -->
+                </div>        
+                 <div class="clearfix visible-xs"></div> 
+            </div>
+
+        <div class="row about-details"> 
+
+                <div class="col-md-2 col-xs-12">  
+                    <!-- <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Organizer</h5>
+                        <img class="img-circle" src="./img/members/about-section/conference.jpg" height="128" width="128" alt="Conference">
+                        <p>Plan GDG Buea events</p>
+                    </div> -->
+                </div> 
+
+                <div class="col-md-4 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Activspaces</h5>
+                        <a href="http://www.activspaces.com">
+                            <img class="img-circle" src="./img/members/activspaces.png" height="128" width="128" alt="Conference">
+                        </a>
+                        <p>Incubate @ ActivSpaces</p>
+                    </div>
+                </div>        
+                <div class="col-md-4 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+                        <h5>Open Source</h5>
+                        <a href="https://github.com">
+                            <img class="img-circle" src="./img/members/open-source-logo.png" height="128" width="128" alt="Code Labs">
+                        </a>
+                        <p>Contribute to Open Source projects</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-xs-12">  
+                    <!-- <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Organizer</h5>
+                        <img class="img-circle" src="./img/members/about-section/conference.jpg" height="128" width="128" alt="Conference">
+                        <p>Plan GDG Buea events</p>
+                    </div> -->
+                </div> 
+
+                 <div class="clearfix visible-xs"></div> 
+            </div>
+
+            <div class="row about-details"> 
+
+                <div class="col-md-1 col-xs-12">  
+                    <!-- <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Membership3</h5>
+                        <img class="img-circle" src="./img/members/about-section/conference.jpg" height="128" width="128" alt="Conference">
+                        <p>Invitation to all GDG Events.</p>
+                    </div> -->
+                </div> 
+
+                <div class="col-md-3 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Play With Python</h5>
+                        <a href="http://playwithpython.org/">
+                            <img class="img-circle" src="./img/members/python.jpg" height="128" width="128" alt="Conference">
+                        </a>
+                        <p>Join the Python Users Group</p>
+                    </div>
+                </div>
+
+                <div id="middle" class="col-md-3 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+                        <h5>GDG Kits</h5>
+                        <a href="http://www.developers.google.com">
+                            <img class="img-circle" src="./img/members/gdg-kit.png" height="128" width="128" alt="Code Labs"></a>
+                        <p>Access Developer Kits</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>JS4Afrika</h5>
+                        <a href="www.js4afrika.org">
+                            <img class="img-circle" src="./img/members/javascript.png" height="128" width="128" alt="Conference">
+                        </a>
+                        <p>Love Javascript</p>
+                    </div>
+                </div> 
+
+                <div class="col-md-1 col-xs-12">  
+                    <!-- <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Membership3</h5>
+                        <img class="img-circle" src="./img/members/about-section/conference.jpg" height="128" width="128" alt="Conference">
+                        <p>Invitation to all GDG Events.</p>
+                    </div> -->
+                </div> 
+
+                 <div class="clearfix visible-xs"></div> 
+            </div>
+
+             <div class="row about-details">   
+                <div class="col-md-3 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Elite Programmers</h5>
+                        <a href="http://eliteprogrammersclub.cf">
+                            <img class="img-circle" src="./img/members/code-lab.jpg" height="128" width="128" alt="Conference">
+                        </a>
+                        <p>Learn Programming</p>
+                    </div>
+                </div>        
+                <div class="col-md-3 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+                        <h5>CPC</h5>
+                        <a href="http://cameroonpc.xyz">
+                            <img class="img-circle" src="./img/members/algorithms.jpg" height="128" width="128" alt="Code Labs">
+                        </a>
+                        <p>Imbibe Algorithms</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>WTM Buea</h5>
+                        <a href="https://www.womentechmakers.com/">
+                            <img class="img-circle" src="./img/members/wtm_logo.png" height="128" width="128" alt="Conference">
+                        </a>
+                        <p>Join WTM Buea</p>
+                    </div>
+                </div>  
+
+                <div class="col-md-3 col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+                        <h5>Color Fluid</h5>
+                        <a href="http://www.colorfluid.net">
+                            <img class="img-circle color-fluid-image" src="./img/members/color-fluid.png" alt="Conference">
+                        </a>
+                        <p>Learn Design</p>
+                    </div>
+                </div>       
+                 <div class="clearfix visible-xs"></div> 
+            </div>
+</section>
+<!-- End Membership Feed Section -->
+
 
 
  <!-- Begin Sponsors Section -->
@@ -388,7 +587,7 @@
     </div> -->
 
     <div class="row">
-        <div class="col-md-4 col-xs-6">
+        <div class="col-md-4 col-xs-12">
             <div class="text-center">
                 <h5>JOIN US</h5>
             <ul>
@@ -415,7 +614,7 @@
         </div>
 
 
-        <div class="col-md-4 contact-us-block col-xs-6">
+        <div class="col-md-4 col-xs-12">
             <div class="text-center">
                 <h5>CONTACTS</h5>
              <ul>
@@ -428,7 +627,7 @@
         </div>
 
 
-        <div class="col-md-4  col-xs-6">
+        <div class="col-md-4 col-xs-12">
             <div class="text-center">
                 <h5>RESOURCES</h5>
             <ul>
