@@ -4,3 +4,8 @@
 .event-text-lg {
 	color: #fff; font-family: sans-serif; padding-top:500px;
 }
+#lily {
+	-webkit-transition: all 0.3s;
+	transition:all 0.3s;
+	-webkit-transform: translateY(-10px);
+}
