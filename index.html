@@ -139,6 +139,11 @@
         .partners .activspaces-logo{
             width: 50%;
         }
+
+        .event-gallery h5{
+            color: #F2F2F2;
+            font-weight: 300;
+        }
         /* End of Arnold's styles */
     </style>
   </head>
@@ -172,11 +177,11 @@
             </li>
 
             <li>
-                <a class=""  href="./speakers/">Membership</a>
+                <a class=""  href="#event-gallery">Events</a>
             </li>
 
             <li>
-                <a class=""  href="./events/">Events</a>
+                <a class=""  href="./speakers/">Membership</a>
             </li>
 
             <li>
@@ -268,6 +273,55 @@
     </div>
 </section>
 <!-- End About Section -->
+
+
+<section id="event-gallery" class="event-gallery">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>Events Gallery</h3>
+            <div class="row venue-row">
+                <div class="col-md-8 col-sm-8 venue-col">
+                    <div class="venue-elem-wrapper">
+                        <div class="venue-elem image-section venue-big-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url(./img/event-gallery/GoogleIO2015.png)">
+                            <h5 align="center" class="event-text-lg">Google I/O 2015</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 venue-col venue-small-col">
+                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="150" style="background-image: url(./img/event-gallery/polymerhack.JPG)">
+                    <h5 align="center" class="event-text cwaves-effect waves-block waves-light">Polymer Code Lab & Hackathon</h5>
+                        </div>
+
+                    </div>
+                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="150" style="background-image: url(./img/event-gallery/ioextended.jpg)">
+                    <h5 align="center" class="event-text cwaves-effect waves-block waves-light">Google I/O Extended</h5>
+                        </div>
+
+                    </div>
+                 
+                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url(./img/event-gallery/jsconf.jpg)">
+                            <h5 align="center" class="event-text">JSConfEU</h5>
+                        </div>
+                    </div>
+                    <div class="venue-elem-wrapper col-xs-6 visible-xs">
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url(./img/venue/GDG.jpg)"></div>
+                    </div>
+                </div>
+           </div>
+           <br>
+           <div class="text-center more-organizers">
+                    <a href="./event-gallery/" class="waves-effect waves-float more-organizers  waves-button waves-light">
+                        More Events
+                    </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 
  <!-- Begin Sponsors Section -->
 <section id="partners" class="partners">
@@ -449,11 +503,11 @@
 
 </script>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./js/vendor/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="./js/jquery-2.1.1.min.js><\/script>')
     </script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="./js/vendor/bootstrap.min.js"></script>
     <script>
     if (typeof($.fn.modal) === 'undefined') {
         document.write('<script src="./js/bootstrap.min.js><\/script>')
@@ -517,183 +571,6 @@
          
     </script>
     <script src="./js/scripts.js"></script>
-
-
-    <script type="application/ld+json">
-    [{
-        "@context" : "http://schema.org",
-        "@type" : "Event",
-        "name" : "GDG DevFest Silicon Valley 2014",
-        "description": "GDG DevFest is a set of events all around the world",
-        "image" : "http://devfest2014.gdgsv.com/img/seo/sharing-google-plus.png",
-        "url" : "http://devfest2014.gdgsv.com",
-        "startDate" : "2014-11-16T9:00",
-        "doorTime" : "08:30",
-        "endDate" : "2014-11-16T20:00",
-        "location" : {
-            "@type" : "Place",
-            "name" : "Google Campus - Building CL2",
-            "sameAs" : "",
-            "address" : {
-                "@type" : "PostalAddress",
-                "streetAddress" : "1200 Crittenden Lane",
-                "addressLocality" : "Mountain View",
-                "addressRegion" : "CA",
-                "postalCode" : "94043",
-                "addressCountry" : "USA"
-            },
-            "geo" : {
-                "@type" : "GeoCoordinates",
-
-                "latitude" : "37.426089",
-                "longitude" : " -122.072344"
-            }
-        },
-        // Not supported yet
-        // "organizer" : {
-        //     "@type" : "Organization",
-        //     "name" : "GDG Silicon Valley",
-        //     "alternateName" : "Google Developer Group Silicon Valley",
-        //     "description" : "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion.",
-        //     "logo" : "http://devfest2014.gdgsv.com/img/seo/organizer-logo.png",
-        //     "email" : "info@gdgsv.com",
-        //     "sameAs" : "http://www.meetup.com/gdg-silicon-valley/"
-        // },
-        "subEvent" : {
-            "@type" : "Event",
-            "name" : "Hackathon",
-            "description": "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!",
-            "image" : "http://devfest2014.gdgsv.com/img/seo/sharing-google-plus.png",
-            "url" : "http://devfest2014.gdgsv.com/hackathon/",
-            "startDate" : "2014-10-24T10:00",
-            "doorTime" : "09:00",
-            "endDate" : "2014-10-25T00:00",
-            "location" : {
-                "@type" : "Place",
-                "name" : "Communa",
-                "sameAs" : "http://communa.net.ua/",
-                "address" : {
-                    "@type" : "PostalAddress",
-                    "streetAddress" : "1 Halytska St",
-                    "addressLocality" : "Lviv",
-                    "addressRegion" : "Lvivska",
-                    "postalCode" : "79000",
-                    "addressCountry" : "Ukraine"
-                },
-                "geo" : {
-                    "@type" : "GeoCoordinates",
-
-                    "latitude" : "49.840999",
-                    "longitude" : " 24.031144"
-                }
-            }
-        },
-        "offers" : [
-
-        ],
-        "performer" : [
-
-        {
-            "@type" : "Person",
-            "name" : "Rob Dodson",
-            "image" : "http://devfest2014.gdgsv.comRobDodson.jpg",
-            "jobTitle" : "",
-            "worksFor" : {
-                "@type" : "Organization",
-                "name" : ""
-            },
-            "sameAs" : "https://plus.google.com/+RobDodson"
-        },
-
-        {
-            "@type" : "Person",
-            "name" : "Matias Molinas",
-            "image" : "http://devfest2014.gdgsv.comMatiasMolinas.png",
-            "jobTitle" : "",
-            "worksFor" : {
-                "@type" : "Organization",
-                "name" : ""
-            },
-            "sameAs" : "https://plus.google.com/u/0/+MatiasMolinas/about"
-        },
-
-        {
-            "@type" : "Person",
-            "name" : "Uri Shaked",
-            "image" : "http://devfest2014.gdgsv.comUriShaked.jpg",
-            "jobTitle" : "",
-            "worksFor" : {
-                "@type" : "Organization",
-                "name" : ""
-            },
-            "sameAs" : ""
-        },
-
-        {
-            "@type" : "Person",
-            "name" : "Jarom McDonald",
-            "image" : "http://devfest2014.gdgsv.comJaromMcDonald.jpg",
-            "jobTitle" : "",
-            "worksFor" : {
-                "@type" : "Organization",
-                "name" : ""
-            },
-            "sameAs" : "https://plus.google.com/+JaromMcDonald"
-        },
-
-        {
-            "@type" : "Person",
-            "name" : "César Antón Dorantes",
-            "image" : "http://devfest2014.gdgsv.comCesarDorantes.png",
-            "jobTitle" : "",
-            "worksFor" : {
-                "@type" : "Organization",
-                "name" : ""
-            },
-            "sameAs" : "https://plus.google.com/+CesarAnton"
-        },
-
-        {
-            "@type" : "Person",
-            "name" : "John Feig",
-            "image" : "http://devfest2014.gdgsv.comJohnFeig.png",
-            "jobTitle" : "",
-            "worksFor" : {
-                "@type" : "Organization",
-                "name" : ""
-            },
-            "sameAs" : "https://plus.google.com/+EJohnFeig"
-        },
-
-        {
-            "@type" : "Person",
-            "name" : "Doris Chen",
-            "image" : "http://devfest2014.gdgsv.comDoris_pro.jpg",
-            "jobTitle" : "Developer Evangelist",
-            "worksFor" : {
-                "@type" : "Organization",
-                "name" : "Microsoft"
-            },
-            "sameAs" : "http://blogs.msdn.com/b/dorischen/"
-        },
-
-        {
-            "@type" : "Person",
-            "name" : "Edith Yeung",
-            "image" : "http://devfest2014.gdgsv.comedith.jpg",
-            "jobTitle" : "",
-            "worksFor" : {
-                "@type" : "Organization",
-                "name" : "Dolphin Browser"
-            },
-            "sameAs" : "https://plus.google.com/116209689631734855369/"
-        }
-
-        ],
-        "eventStatus" : "EventScheduled",
-        "typicalAgeRange" : "16+"
-    }]
-    </script>
 </body>
 
 </html>
