@@ -4,41 +4,41 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
-    <meta name="description" content="GDG DevFest is a set of events all around the world">
-    <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers">
-    <link rel="canonical" href="http://devfest2014.gdgsv.com">
+    <meta name="author" content="GDG Buea">
+    <meta name="description" content="A Community That Codes">
+    <meta name="keywords" content="tech, gdg, africa, google, programming, cameroon, community, codes, startup">
+    <link rel="canonical" href="http://gdgbuea.net">
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@gdgsv">
-    <meta name="twitter:title" content="GDG DevFest Silicon Valley 2014">
-    <meta name="twitter:description" content="GDG DevFest is a set of events all around the world">
-    <meta name="twitter:image:src" content="http://devfest2014.gdgsv.com/img/seo/sharing-twitter.png">
+    <meta name="twitter:site" content="@gdgbuea">
+    <meta name="twitter:title" content="GDG Buea">
+    <meta name="twitter:description" content="A Community That Codes">
+    <meta name="twitter:image:src" content="./img/about-section/GDG.jpg">
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:title" content="GDG DevFest Silicon Valley 2014" /> 
-    <meta property="og:site_name" content="GDG DevFest Silicon Valley 2014" /> 
+    <meta property="og:title" content="GDG Buea" /> 
+    <meta property="og:site_name" content="A Community That Codes" /> 
     <meta property="og:type" content="website" /> 
-    <meta property="og:url" content="http://devfest2014.gdgsv.com" />
-    <meta property="og:image" content="http://devfest2014.gdgsv.com/img/seo/sharing-facebook.png" />
-    <meta property="og:description" content="GDG DevFest is a set of events all around the world" /> 
+    <meta property="og:url" content="http://www.gdgbuea.net" />
+    <meta property="og:image" content="./img/about-section/GDG.jpg" />
+    <meta property="og:description" content="A Community That Codes" /> 
     
-    <title>GDG DevFest Silicon Valley 2014</title>
+    <title>GDG Buea - A Community That Codes</title>
     <link rel="shortcut icon" href="/img/favicons/favicon.ico">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-196x196.png">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-160x160.png">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/gdgbuea.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/gdgbuea.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/gdgbuea.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/gdgbuea.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/gdgbuea.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/gdgbuea.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/gdgbuea.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/gdgbuea.png">
+    <link rel="icon" type="image/png" href="/img/favicons/gdgbuea.png">
+    <link rel="icon" type="image/png" href="/img/favicons/gdgbuea.png">
+    <link rel="icon" type="image/png" href="/img/favicons/gdgbuea.png">
+    <link rel="icon" type="image/png" href="/img/favicons/gdgbuea.png">
+    <link rel="icon" type="image/png" href="/img/favicons/gdgbuea.png">
     <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+    <meta name="msapplication-TileImage" content="/img/favicons/gdgbuea.png">
     <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
     
     <link href="/css/main.min.css" rel="stylesheet"> 
